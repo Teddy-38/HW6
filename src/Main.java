@@ -29,8 +29,22 @@ public class Main {
         }
         System.out.println("Task8");
         int gold = 29000;
-        for (int i = 1; i <= 12;  i = i + 1) {
-            System.out.println("Месяц " + i + " сумма накоплений равна " + gold*i + " рублей");
+        for (int i = 1; i <= 12; i = i + 1) {
+            System.out.println("Месяц " + i + " сумма накоплений равна " + gold * i + " рублей");
         }
+        System.out.println("Task9");
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + salary;
+            total = total + total / 100;
+            System.out.println("Месяц " + i + " cумма годовых накоплений " + total + " рублей");
+        }
+            System.out.println("Task10");
+            int doubl = 2;
+            for (int i = 1; i <= 10; i = i + 1) {
+                System.out.println(doubl * i);
+        }
+
     }
 }
